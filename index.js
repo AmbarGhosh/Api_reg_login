@@ -14,7 +14,7 @@ const route = require('./routes/route')
 app.use('/api', route)
 
 const dbDriver = "mongodb+srv://ambarghosh:5ySnzH5XPwXgtQ5Q@cluster0.a051rmr.mongodb.net/api_project"
-const port = process.env.PORT || 6999
+const port = process.env.PORT || 7979
 mongoose.connect(dbDriver,
     {
         useNewUrlParser: true,
